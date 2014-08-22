@@ -1,0 +1,28 @@
+
+.navbar-blue{
+	background-color: #FFFFFF;
+}
+
+.jumbotron.jumbotron-my{	
+
+background: #235d9d; /* Для старых браузров */
+background-image: linear-gradient(to bottom, #73aade 0px, #235d9d 100%);
+color: #fff;
+ 
+}
+
+.lobster
+{
+	font-family: 'Lobster', cursive;
+}
+
+.tx120{
+	font-size: 120%;
+}
+
+.tx-sp3{
+letter-spacing: 3px;
+}
+/*
+
+*/
