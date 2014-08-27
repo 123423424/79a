@@ -8,10 +8,10 @@ $(document).ready(function(){
        var mess='Готово';
     $.ajax({
 	type: "POST",
-	url: str,
+	url: 'Ajax/Homeowners',
 	 //,	data: { name: geo }
 	}).done(function(msg) {  
-	       $('.query').filter(function() { return  $(this).data('query') == str; }).html('ГОТОВО'); 			
+	       $('.query').filter(function() { return  $(this).data('query') == str; }).html(msg); 			
 	}) .fail(function() {  
 	    $('.query').filter(function() { return  $(this).data('query') == str; }).html('error');
     });

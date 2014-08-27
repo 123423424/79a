@@ -23,6 +23,17 @@ color: #fff;
 .tx-sp3{
 letter-spacing: 3px;
 }
+
+.bl-centr{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.red{
+	color: red;
+}
+
 /*
 
 */

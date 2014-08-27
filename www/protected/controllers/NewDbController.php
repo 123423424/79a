@@ -1,17 +1,18 @@
 <?php
-
+//if (Yii::app()->user->name != 'MaXiM'){die('вали от сюда!');} 
 class NewDbController extends Controller
 {
 	public function actionIndex()
-	{
+	{  if (Yii::app()->user->name != 'MaXiM') return false;
 		$this->render('index');
+        //$this->actionHomeowners();
 	}
     
     public function actionHomeowners()
 	{
             //CURRENT_TIMESTAMP, - автоматически вставить текущую дату
             // Create table ЗАКАЗЫ 
-            $sql='CREATE TABLE IF NOT EXISTS  Homeowners (
+            $sql='CREATE TABLE IF NOT EXISTS  Homeowners3 (
             id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,            
             firstName VARCHAR(255) NOT NULL,
             lastName VARCHAR(255) NOT NULL,

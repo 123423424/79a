@@ -12,16 +12,16 @@
 $label=$this->pluralize($this->class2name($this->modelClass));
 echo "\$this->breadcrumbs=array(
 	'$label'=>array('index'),
-	'Create',
+	'Создание',
 );\n";
 ?>
 
 $this->menu=array(
-	array('label'=>'List <?php echo $this->modelClass; ?>', 'url'=>array('index')),
-	array('label'=>'Manage <?php echo $this->modelClass; ?>', 'url'=>array('admin')),
+	array('label'=>'Список <?php echo $this->modelClass; ?>', 'url'=>array('index')),
+	array('label'=>'Менеджер <?php echo $this->modelClass; ?>', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create <?php echo $this->modelClass; ?></h1>
+<h1>Создание <?php echo $this->modelClass; ?></h1>
 
 <?php echo "<?php \$this->renderPartial('_form', array('model'=>\$model)); ?>"; ?>

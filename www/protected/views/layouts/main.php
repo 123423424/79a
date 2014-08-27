@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="<?php echo Yii::app()->
 	request->baseUrl; ?>/css/bootstrap.css">
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/ie10-viewport-bug-workaround.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/ie10-viewport-bug-workaround.js"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -30,7 +30,9 @@
 	<![endif]-->
 
 	<!-- Подключение моих  стилей-->
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css"></head>
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css"/>
+    <?php if ( isset($this->content_sliader)) echo $this->content_css; ?>
+    </head>
 
 <body class="bs-docs-home">
 
@@ -82,12 +84,12 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> <!-- Modal  Регистрация  / -->
 
        
        
 
-
+	<!-- Навигация -->
 	<div class="navbar navbar-default navbar-blue navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -97,45 +99,46 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">г. Новосибирск, ул.Советская, 79а</a>
+				<a class="navbar-brand hidden-xs " href="/">г. Новосибирск, ул.Советская, 79а</a>
+                <a class="navbar-brand hidden-sm hidden-md hidden-lg " href="/">ул.Советская, 79а</a>
 			</div>
 			<div class="navbar-collapse collapse">
+            
 				<form class="navbar-form navbar-right" role="form">
 					<div class="form-group">
-						<input type="text" placeholder="Телефон" class="form-control"></div>
+						<input type="text" id="telephoneInputMain" placeholder="Телефон" class="form-control telephone"/>                       
+                        
+                        
+                        </div>
 					<div class="form-group">
-						<input type="password" placeholder="Пароль" class="form-control"></div>
+						<input type="password" placeholder="Пароль" class="form-control"/></div>
 					<button type="submit" class="btn btn-success">Вход</button>
 				</form>
+                
 			</div>
 			<!--/.navbar-collapse -->
 		</div>
 	</div>
-
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron jumbotron-my lobster text-center">
-		<div class="container">
-
-			<h1 class="">
-				Советская, 79а
-				<br />
-				г. Новосибирск
-			</h1>
-			<p>Сайт для собственников жилья.</p>
-			<p>
-				<a class="btn btn-success btn-lg tx-sp3" role="button" data-target="#myModal" data-toggle="modal">РЕГИСТРАЦИЯ &raquo;</a>
-				
-
-
-			</p>
-		</div>
-	</div>
+    
+    
+    
+	<!--  Подключение слайдера    -->
+    
+    
+<div class="jumbotron jumbotron-my lobster text-center">
+		      <div class="container">
+        			<?php if ( isset($this->content_sliader)) echo $this->content_sliader; ?>
+        	   </div>
+        	</div> 
+    
+    
 
 	<div class="container">	
 
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
+            
 				<?php echo $content; ?>
 				
 			</div>
@@ -143,7 +146,7 @@
 		</div>
 
 
-		<hr />
+	
 			
 			<hr />
 
@@ -152,15 +155,58 @@
 				<a target="_blank" href="http://сайтсайтов.рф/">СайтСайтов</a>
 				&copy; Company <?php echo date('Y'); ?> 
 			</p>
+            <a  href="/admin79/input/login">ВХОД(<?php 
+           
+            echo Yii::app()->user->id[0] ? Yii::app()->user->id[0] : '';
+            
+            
+            echo Yii::app()->user->name[0];
+            
+            foreach ($_SESSION as $a => $b) {
+                echo "<br />->$a => $b";
+            }
+            
+            ?>)</a>
+            
+            <?php
+	if ((Yii::app()->user->name == 'MaXiM')|| (Yii::app()->user->name[0] == 'reg')){ 
+
+?>
 			<!-- Компоненты для админа -->
 			<p>	
-				<a  href="/">Главная</a>	
-				<a target="_blank" href="/gii/">gii</a>	
-				<a target="_blank" href="/NewDb">NewDb</a>	
+				<a  href="/">Главная</a>	<br />
+				<a target="_blank" href="/gii/">gii</a>	<br />
+				<a target="_blank" href="/NewDb">NewDb</a><br />	
+               <a target="_blank" href="/admin79/input">admin79_input</a><br />	
+               
+               	<div id="mainmenu">
+		<?php $this->widget('zii.widgets.CMenu',array(
+			'items'=>array(                
+                array('label'=>'Главная', 'url'=>array('/')),
+                array('label'=>'admin', 'url'=>array('/admin')),
+                array('label'=>'Форма валидации', 'url'=>array('/admin/homeowners/')),
+                
+               
+                array('label'=>'Вопросы', 'url'=>array('/questions')), 
+                
+                array('label'=>'Проверка формы', 'url'=>array('/chekSingup')), 
+                array('label'=>'gii', 'url'=>array('/gii')),   
+                array('label'=>'Регистрация', 'url'=>array('/signup')),
+                				
+				array('label'=>'Login', 'url'=>array('admin79/input/login'), 'visible'=>Yii::app()->user->isGuest),
+				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('admin79/input/logout'), 'visible'=>!Yii::app()->user->isGuest)
+			),  
+            
+            
+                      
+		)); ?>
+	</div><!-- mainmenu -->
 
 			</p> <!-- Компоненты для админа /-->
 
-
+<?php
+	    }
+?>
 		</footer>
 	</div>
 	<!-- /container -->
@@ -168,7 +214,20 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
+    
+    <!-- Валидация телефона -->
+<script type="text/javascript" src="js/jquery.maskedinput-1.3.1.min_.js"></script>
+<script type="text/javascript">// <![CDATA[
+jQuery(function($) {
+      $.mask.definitions['~']='[+-]';      
+      $('.telephone').mask('+7(999) 999-99-99');
+      $('#roomInput').mask('99');
+      
+    
+   });
+// ]]&gt;</script>  
+<!-- /Валидация телефона -->
 
 	<!-- Подключение  моих плагинов  -->
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/main.js"></script>
