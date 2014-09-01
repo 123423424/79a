@@ -150,6 +150,53 @@
 			
 			<hr />
 
+
+<?php
+
+echo "<br />++4+++<br />";
+//выполнить require файла "protected/folder/SomeClass.php"
+    Yii::import('application.folder.Verification', true);
+    $verific = new Verification('q123w123', 'text'); 
+    //echo $verific->rez(); 
+    echo $verific.'<br />->'; 
+    echo $verific->newValue('423dfdf2342gdf', 'num');
+    
+   
+    
+
+echo "<br />++3+++<br />";
+    //выполнить require файла "protected/folder/SomeClass.php"
+    Yii::import('application.folder.SomeClass', true);
+
+    //используй
+    $some = new SomeClass(); 
+    $some->zzz();
+    
+    
+    
+   //Проверка данных
+echo "+2+<br />";
+$user = Yii::app()->db->createCommand()
+    ->select('id, firstName, lastName, phone')
+    ->from('homeowners u')      
+    ->where('phone="+7(345)345-34-55"')
+    ->queryRow();
+    
+    
+    
+
+if ($user) {
+foreach ($user as $a ) {
+                echo "<br />->$a";
+            }
+}
+echo "<br />+++++<br />";
+
+
+
+    
+
+?>
 		<footer>
 			<p>
 				<a target="_blank" href="http://сайтсайтов.рф/">СайтСайтов</a>

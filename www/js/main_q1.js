@@ -3,6 +3,7 @@ $(document).ready(function(){
       //alert('');
 
 //Отправка запроса на создания БД
+/*
     $('.query').click(function(){ 
        var str= $(this).data('query');
        var mess='Готово';
@@ -16,11 +17,29 @@ $(document).ready(function(){
 	    $('.query').filter(function() { return  $(this).data('query') == str; }).html('error');
     });
 });    
+*/
+
+$('.btn').button();
+
+$(".no").click(function(){
+    $('#GEY').show("slow");	
+});
+
+$(".yes").click(function(){
+    $('#GEY').hide("slow");	
+});
 
 
+$(".yesCar").click(function(){
+    $('#carBloc').show("slow");	
+});
 
+$(".noCar").click(function(){
+    $('#carBloc').hide("slow");	
+});
 
-
+	
+	//$('#GEY').show("slow");
 
 
 

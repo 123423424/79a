@@ -4,7 +4,7 @@ if (Yii::app()->user->name != 'MaXiM') return false;
 class AjaxController extends CController {
     // actionIndex вызывается всегда, когда action не указан явно.
     function actionIndex(){
-       if (Yii::app()->user->name != 'MaXiM'){ die('ddd');}
+       if (Yii::app()->user->name != 'MaXiM'){ die('ddd');} else {echo 'jjj';}
     }    
         //Собственникижилья
         public function actionHomeowners()	
@@ -32,6 +32,46 @@ registerDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
             INDEX (phone),
             INDEX (id)
           
+            )  ';
+        Yii::app()->db->createCommand($sql)->execute(); 
+        
+        //$this->render('homeowners');  
+        //$this->renderPartial ('homeowners');    
+        echo Yii::app()->user->name;  
+	}
+    
+    //Отвеченные вопросы
+        public function actionUnanswered()	
+        {             
+            //CURRENT_TIMESTAMP, - автоматически вставить текущую дату
+            // Create table ЗАКАЗЫ 
+            $sql='CREATE TABLE IF NOT EXISTS  Unanswered  (
+            id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,  
+            idHomeowners MEDIUMINT UNSIGNED  NOT NULL default 0, 
+            idQuestion MEDIUMINT UNSIGNED  NOT NULL default 0, 
+            idAnswers MEDIUMINT UNSIGNED  NOT NULL default 0,                 
+           
+            INDEX (idHomeowners)          
+            )  ';
+        Yii::app()->db->createCommand($sql)->execute(); 
+        
+        //$this->render('homeowners');  
+        //$this->renderPartial ('homeowners');    
+        echo Yii::app()->user->name;  
+	}
+    
+    //Ответы
+        public function actionAnswers()	
+        {             
+            //CURRENT_TIMESTAMP, - автоматически вставить текущую дату
+            // Create table ЗАКАЗЫ 
+            $sql='CREATE TABLE IF NOT EXISTS  Answers  (
+            id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,  
+            idAnswers MEDIUMINT UNSIGNED default 0,
+            nameAnswer  VARCHAR(255) default "", 
+            Answer VARCHAR(255) default "",                 
+           
+            INDEX (idAnswers)          
             )  ';
         Yii::app()->db->createCommand($sql)->execute(); 
         

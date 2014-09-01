@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 	'Login',
 );
 
-$model=new LoginForm;
+
 
 ?>
 	

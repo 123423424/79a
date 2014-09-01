@@ -1,19 +1,11 @@
 <?php
-//if (Yii::app()->user->name != 'MaXiM'){die('вали от сюда!');} 
-class NewDbController extends Controller
+
+class VerificationController extends Controller
 {
 	public function actionIndex()
-	{  if (Yii::app()->user->name != 'MaXiM') return false;
+	{
 		$this->render('index');
-        //$this->actionHomeowners();
 	}
-    
-    
-    
-   
-    
-    
-    
 
 	// Uncomment the following methods and override them if needed
 	/*
