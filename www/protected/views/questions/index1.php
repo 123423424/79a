@@ -18,6 +18,7 @@ $this->breadcrumbs=array(
 
 <form id='formSingup'  method="post" action="/chekQuestion" role="form">
 
+<input type="hidden" name = "version" value="1">
 <div class="form-group">
 			<label  for="problems">
 				Какие проблемы Вы видите у нашего дома (опишите в произвольной форме какие актуальные вопросы Вы видите)?
@@ -32,16 +33,16 @@ $this->breadcrumbs=array(
 
 		<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary no">
-				<input type="radio" name="happy" id="happy2" value="2" >Нет, не доволен</label>
+				<input type="radio" name="happy"  value="no" >Нет, не доволен</label>
 			<label class="btn btn-primary yes">
-				<input type="radio" name="happy" id="happy1" value="1">Да, доволен</label>
+				<input type="radio" name="happy" value="yes">Да, доволен</label>
 						
 		</div>
 		<br /> <br />
 
 		<div id = 'GEY' class="form-group">
-			<label  for="nameInput">Что именно Вам не нравится в нашей Управляющей Компании (ЖЭУ) ?</label>
-			<textarea class="form-control" id="nameInput" name="nameInput" rows="2"></textarea>
+			<label  for="nameGEY">Что именно Вам не нравится в нашей Управляющей Компании (ЖЭУ) ?</label>
+			<textarea class="form-control" name="nameGEY" rows="2"></textarea>
 			
 		</div>
 
@@ -51,9 +52,9 @@ $this->breadcrumbs=array(
 
 		<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary">
-				<input type="radio" name="arbitrariness" id="arbitrariness2" >Нет</label>
+				<input type="radio" name="arbitrariness" value="no" >Нет</label>
 			<label class="btn btn-primary">
-				<input type="radio" name="arbitrariness" id="arbitrariness1">Да, известно </label>
+				<input type="radio" name="arbitrariness" value="yes">Да, известно </label>
 						
 		</div>
 		<br /> <br />
@@ -63,9 +64,9 @@ $this->breadcrumbs=array(
 
 		<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary">
-				<input type="radio" name="change" id="change1">Да, нужно сменить </label>
+				<input type="radio" name="change" value="yes">Да, нужно сменить </label>
 		<label class="btn btn-primary">
-				<input type="radio" name="change" id="change2" >Нет, оставить прежнюю</label>	
+				<input type="radio" name="change" value="no">Нет, оставить прежнюю</label>	
 		</div>
 		<br /> <br />
 
@@ -73,46 +74,46 @@ $this->breadcrumbs=array(
 
 		<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary yesCar">
-				<input type="radio" name="haveCar" id="haveCar1">Да</label>
+				<input type="radio" name="haveCar"  value="yes">Да</label>
 		<label class="btn btn-primary noCar">
-				<input type="radio" name="haveCar" id="haveCar2" >Нет</label>	
+				<input type="radio" name="haveCar" value="no" >Нет</label>	
 		</div>
 		<br /> <br />
 
 <div id = 'carBloc'>
 <div  class="form-group">
 			<label  for="nameInput">Напишите довольны ли Вы ситуацией с парковками и Ваше предложение решения проблемы?</label>
-			<textarea class="form-control" id="car" name="car" rows="2"></textarea>			
+			<textarea class="form-control" name="car" rows="2"></textarea>			
 		</div>
 <p><strong>	Нужен ли шлагбаум ? </strong></p> 
 
 		<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary">
-				<input type="radio" name="turnpike" id="turnpike1">Да</label>
+				<input type="radio" name="turnpike" value="yes">Да</label>
 		<label class="btn btn-primary">
-				<input type="radio" name="turnpike" id="turnpike2" >Нет</label>	
+				<input type="radio" name="turnpike" value="no"  >Нет</label>	
 		</div>
 		<br /> <br />
 
 </div>
-
-	<div class="form-group1">
-		<div class="form-group">
-			<label  for="nameInput">
-				В какое время Вам удобно приходить на собрание собственников жилья?
+<div class="form-group">
+			<label  for="repair">
+				Необходим ли ремонт в Вашем подъезде? 
 			</label>
-			<textarea class="form-control" id="nameInput" name="nameInput" placeholder="К примеру, могу в любой будний день с 20:00 до 22:00" rows="2"></textarea>
+			<textarea class="form-control"  name="repair" rows="2"></textarea>
 		</div>
 
-		
-		
 
 
-		
+	
+		<div class="form-group">
+			<label  for="time">
+				В какое время Вам удобно приходить на собрание собственников жилья?
+			</label>
+			<textarea class="form-control"  name="time" placeholder="К примеру, могу в любой будний день с 20:00 до 22:00" rows="2"></textarea>
+		</div>
 
-		
-		
-
+		<div class="form-group">
 		<button type="submit" id='submitForm' class="btn btn-primary bl-centr">Готово!</button>
 	</div>
 

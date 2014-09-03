@@ -5,66 +5,54 @@ class ChekSingupController extends Primary
 {   
      
 	public function actionIndex()
-	{  
-		$this->param = $_POST; 
-        //Yii::app()->getRequest()->getPost('surnameInput'); 
-       
-       // $this->render('index');
-       
-       // если запрос асинхронный, то нам нужно отдать только данные
-        if(Yii::app()->request->isAjaxRequest){ 
+    { 
+        // если запрос асинхронный, то нам нужно отдать только данные
+        if(Yii::app()->request->isAjaxRequest){
+            $this->param = $_POST;
             Yii::import('application.folder.Verification', true);
             $verific = new Verification($this->param ['nameInput'], 'text'); 
-          
-         $nameInput= $verific;
-         $surnameInput =$verific->newValue ( $this->param ['surnameInput'], 'text' );
-         $patronymicInput =$verific->newValue ( $this->param ['patronymicInput'], 'text' );         
-         $roomInput= $verific->newValue ( $this->param ['roomInput'], 'num' );
-         $telephoneInput =$verific->newValue( $this->param ['telephoneInput'], 'tel' );         
-         $mailInput= $verific->newValue ( $this->param ['mailInput'], 'email' );
-         $passwordInput= $verific->newValue ( $this->param ['passwordInput'], 'pass' );
-         
-         $ip = $_SERVER['REMOTE_ADDR'];    
-         
-         
-
-  /*  $command = Yii::app()->db->createCommand();
-	    $command->insert('homeowners', array( 
-          //  'id'=> 'NULL'
-            'firstName'=> $nameInput,
-            'lastName'=> $surnameInput,
-            'patronymicName'=> $patronymicInput,
-            'room'=> $roomInput,
-            'phone'=> $telephoneInput,
-            'password'=> $passwordInput,
-            'validation'=>  0,
-            'email'=> $mailInput,
-            'hireDate'=> CURRENT_TIMESTAMP,
-            'registerDate'=> CURRENT_TIMESTAMP,
-          'ip'=> INET_ATON($ip), 
-          
-          ///
-          
-            ///
             
-           // 'firstName'=>'testerexample', 
-));*/
-     
-         
-         $sql="INSERT INTO `homeowners` (`firstName`, `lastName`, `patronymicName`, `room`, `phone`, `password`, `validation`,  `email`, `hireDate`, `registerDate`, `ip`) VALUES ('$nameInput', '$surnameInput', '$patronymicInput', '$roomInput', '$telephoneInput', '$passwordInput', '0',  '$mailInput', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, INET_ATON('$ip'))";
+            $telephoneInput =$verific->newValue( $this->param ['telephoneInput'], 'tel' );
             
-            Yii::app()->db->createCommand($sql)->execute();
-             $nomId = Yii::app()->db->getLastInsertID();
-         
-           // $this->ch($this->valid ( $this->param ['telephoneInput'], 'tel' ));
-            $this->ch($nomId, $nameInput);
-            
-            
-            // Завершаем приложение
-            Yii::app()->end(); 
+            $user = Yii::app()->db->createCommand()
+            ->select('id')
+            ->from('homeowners u')      
+            ->where('phone="'.$telephoneInput.'"')
+            ->queryAll();   
+            $str ='';         
+        
+            if ($user) {
+                echo 'error';
+            } else {
+                
+                $nameInput =$verific->newValue ( $this->param ['nameInput'], 'text' );
+                $surnameInput =$verific->newValue ( $this->param ['surnameInput'], 'text' );
+                $patronymicInput =$verific->newValue ( $this->param ['patronymicInput'], 'text' );         
+                $roomInput= $verific->newValue ( $this->param ['roomInput'], 'num' );
+                
+                $mailInput= $verific->newValue ( $this->param ['mailInput'], 'email' );
+                $passwordInput= $verific->newValue ( $this->param ['passwordInput'], 'pass' );
+                
+                $ip = $_SERVER['REMOTE_ADDR'];    
+                
+                
+                $sql="INSERT INTO `homeowners` (`firstName`, `lastName`, `patronymicName`, `room`, `phone`, `password`, `validation`,  `email`, `hireDate`, `registerDate`, `ip`) 
+                VALUES ('$nameInput', '$surnameInput', '$patronymicInput', '$roomInput', '$telephoneInput', '$passwordInput', '0',  '$mailInput', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, INET_ATON('$ip'))";
+                
+                Yii::app()->db->createCommand($sql)->execute();
+                $nomId = Yii::app()->db->getLastInsertID();
+                
+                // $this->ch($this->valid ( $this->param ['telephoneInput'], 'tel' ));
+                $this->ch($nomId, $nameInput);  
+                
+                echo $str;          
+                
+                // Завершаем приложение
+                Yii::app()->end(); 
+            }
         }
-                 
-	}
+    
+    } //   \actionIndex 
    
     
     private function ch($lastId, $nameInput)

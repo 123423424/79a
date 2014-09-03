@@ -10524,3 +10524,2561 @@ Stack trace:
 REQUEST_URI=/index.php/js/jquery.maskedinput-1.3.1.min_.js
 HTTP_REFERER=http://79a/index.php/chekQuestion
 ---
+2014/09/03 01:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/03 01:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/03 01:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/03 02:00:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('NewDb')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/NewDb
+HTTP_REFERER=http://79a/index.php
+---
+2014/09/03 02:01:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('NewDb')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/NewDb
+HTTP_REFERER=http://79a/index.php
+---
+2014/09/03 02:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/03 02:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/03 02:27:10 [error] [php] Undefined index: version (K:\home\79a\www\protected\controllers\ChekQuestionController.php:13)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (13)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:29:09 [error] [php] Undefined index: version (K:\home\79a\www\protected\controllers\ChekQuestionController.php:17)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (17)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:32:03 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:20)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (20)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:32:57 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:20)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (20)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:34:25 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:21)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (21)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:34:39 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:21)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (21)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:35:01 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:18)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (18)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:35:25 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:18)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (18)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:35:31 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:21)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (21)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:35:41 [error] [php] Object of class Verification could not be converted to int (K:\home\79a\www\protected\controllers\ChekQuestionController.php:18)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (18)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:36:18 [error] [php] Undefined variable: version (K:\home\79a\www\protected\controllers\ChekQuestionController.php:19)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (19)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:41:59 [error] [php] Undefined variable: content (K:\home\79a\www\protected\views\chekQuestion\index.php:16)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(869): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\CController.php(782): ChekQuestionController->renderPartial()
+#2 K:\home\79a\www\protected\controllers\ChekQuestionController.php(8): ChekQuestionController->render()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#6 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\chekQuestion\index.php (16)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (8)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:50:48 [error] [php] Undefined variable: verific (K:\home\79a\www\protected\controllers\ChekQuestionController.php:43)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (43)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:51:59 [error] [php] Undefined variable: verific (K:\home\79a\www\protected\controllers\ChekQuestionController.php:43)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (43)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:52:30 [error] [php] Undefined variable: verific (K:\home\79a\www\protected\controllers\ChekQuestionController.php:43)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (43)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:53:09 [error] [php] Undefined index: nameAnswer (K:\home\79a\www\protected\controllers\ChekQuestionController.php:45)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (45)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:53:29 [error] [php] Undefined index: nameAnswer (K:\home\79a\www\protected\controllers\ChekQuestionController.php:45)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (45)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:53:59 [error] [php] Undefined variable: nameAnswer (K:\home\79a\www\protected\controllers\ChekQuestionController.php:46)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (46)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 02:55:14 [error] [php] Undefined variable: verific (K:\home\79a\www\protected\controllers\ChekQuestionController.php:45)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#2 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (45)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (23)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajax/Answers".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajax/Answers')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajax/Answers
+HTTP_REFERER=http://79a/NewDb
+---
+2014/09/03 03:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/03 03:10:35 [error] [php] Undefined variable: nameAnswer (K:\home\79a\www\protected\controllers\ChekQuestionController.php:30)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (30)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:14:37 [error] [php] Undefined variable: nomId (K:\home\79a\www\protected\controllers\ChekQuestionController.php:45)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (45)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:25:30 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. Выполнявшийся SQL-запрос: SELECT * FROM `unanswered` `t` WHERE idHomeowners=:idHomeowners LIMIT 1.
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (24)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:25:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `unanswered` `t` WHERE idHomeowners=:idHomeowners LIMIT 1' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->find('idHomeowners=:i...', Array)
+#4 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#5 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#10 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\79a\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:25:53 [error] [php] Object of class Unanswered could not be converted to string (K:\home\79a\www\protected\controllers\ChekQuestionController.php:54)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (54)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:26:28 [error] [php] Object of class Unanswered could not be converted to string (K:\home\79a\www\protected\controllers\ChekQuestionController.php:25)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (25)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:32:23 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' idAnswers LIMIT 1' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `unanswered` `t` WHERE idHomeowners, idAnswers LIMIT 1.
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (24)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:32:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' idAnswers LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `unanswered` `t` WHERE idHomeowners, idAnswers LIMIT 1' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->find('idHomeowners, i...', Array)
+#4 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#5 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#10 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\79a\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:32:49 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.0".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'idHomeowners')
+#1 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->find(Array, Array)
+#4 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#5 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#10 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\79a\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:33:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.0".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'idAnswers')
+#1 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->find(Array, Array)
+#4 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#5 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#10 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\79a\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:34:24 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:idHomeowners".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':idHomeowners', '29')
+#1 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'idAnswers', Array, Array, '`t`.')
+#4 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->findAllByAttributes('idAnswers', Array)
+#5 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#6 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#10 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#11 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 K:\home\79a\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:35:47 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:idHomeowners".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':idHomeowners', '29')
+#1 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'idAnswers', Array, Array, '`t`.')
+#4 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->findAllByAttributes('idAnswers', Array)
+#5 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#6 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#10 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#11 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 K:\home\79a\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:39:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:idAnswers".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':idAnswers', 4)
+#1 K:\home\79a\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 K:\home\79a\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 K:\home\79a\www\protected\controllers\ChekQuestionController.php(24): CActiveRecord->find(Array)
+#4 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#5 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#10 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\79a\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 03:47:25 [error] [php] Undefined variable: str (K:\home\79a\www\protected\controllers\ChekQuestionController.php:36)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (36)
+in K:\home\79a\www\index.php (13)
+2014/09/03 03:58:35 [error] [php] Invalid argument supplied for foreach() (K:\home\79a\www\protected\controllers\ChekQuestionController.php:33)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (33)
+in K:\home\79a\www\index.php (13)
+2014/09/03 04:04:24 [error] [php] Undefined variable: a (K:\home\79a\www\protected\controllers\ChekQuestionController.php:40)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (40)
+in K:\home\79a\www\index.php (13)
+2014/09/03 04:51:25 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: range out of order in character class at offset 151 (K:\home\79a\www\protected\folder\Verification.php:42)
+Stack trace:
+#0 K:\home\79a\www\protected\controllers\ChekQuestionController.php(42): Verification->newValue()
+#1 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#2 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#4 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#5 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#6 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\folder\Verification.php (42)
+in K:\home\79a\www\protected\folder\Verification.php (10)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (42)
+2014/09/03 04:52:04 [error] [php] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: range out of order in character class at offset 152 (K:\home\79a\www\protected\folder\Verification.php:42)
+Stack trace:
+#0 K:\home\79a\www\protected\controllers\ChekQuestionController.php(42): Verification->newValue()
+#1 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#2 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#4 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#5 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#6 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\folder\Verification.php (42)
+in K:\home\79a\www\protected\folder\Verification.php (10)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (42)
+2014/09/03 05:21:21 [error] [php] Undefined variable: str (K:\home\79a\www\protected\views\chekQuestion\index.php:7)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(869): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\CController.php(782): ChekQuestionController->renderPartial()
+#2 K:\home\79a\www\protected\controllers\ChekQuestionController.php(103): ChekQuestionController->render()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#6 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\chekQuestion\index.php (7)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (103)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:21:58 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ChekQuestionController.str".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\chekQuestion\index.php(7): CComponent->__get('str')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', NULL, true)
+#3 K:\home\79a\www\framework\web\CController.php(869): CBaseController->renderFile('K:\home\79a\www...', NULL, true)
+#4 K:\home\79a\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 K:\home\79a\www\protected\controllers\ChekQuestionController.php(103): CController->render('index')
+#6 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#7 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('chekQuestion')
+#12 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 K:\home\79a\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/chekQuestion
+HTTP_REFERER=http://79a/questions?first=1
+---
+2014/09/03 05:22:37 [error] [php] Undefined variable: str (K:\home\79a\www\protected\views\chekQuestion\index.php:7)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(869): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\CController.php(782): ChekQuestionController->renderPartial()
+#2 K:\home\79a\www\protected\controllers\ChekQuestionController.php(103): ChekQuestionController->render()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#6 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\chekQuestion\index.php (7)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (103)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:26:31 [error] [php] Undefined variable: str (K:\home\79a\www\protected\views\chekQuestion\index.php:9)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(869): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\CController.php(782): ChekQuestionController->renderPartial()
+#2 K:\home\79a\www\protected\controllers\ChekQuestionController.php(103): ChekQuestionController->render()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#6 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\chekQuestion\index.php (9)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (103)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:54:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. Выполнявшийся SQL-запрос: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=.
+in K:\home\79a\www\protected\controllers\QuestionsController.php (47)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (17)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:54:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. The SQL statement executed was: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 K:\home\79a\www\protected\controllers\QuestionsController.php(47): CDbCommand->queryAll()
+#2 K:\home\79a\www\protected\controllers\QuestionsController.php(17): QuestionsController->topicalAnswer()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/questions
+HTTP_REFERER=http://79a/signup
+---
+2014/09/03 05:54:42 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. Выполнявшийся SQL-запрос: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=.
+in K:\home\79a\www\protected\controllers\QuestionsController.php (47)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (17)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:54:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. The SQL statement executed was: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 K:\home\79a\www\protected\controllers\QuestionsController.php(47): CDbCommand->queryAll()
+#2 K:\home\79a\www\protected\controllers\QuestionsController.php(17): QuestionsController->topicalAnswer()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/questions
+HTTP_REFERER=http://79a/signup
+---
+2014/09/03 05:55:41 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. Выполнявшийся SQL-запрос: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=.
+in K:\home\79a\www\protected\controllers\QuestionsController.php (47)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (17)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:55:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. The SQL statement executed was: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 K:\home\79a\www\protected\controllers\QuestionsController.php(47): CDbCommand->queryAll()
+#2 K:\home\79a\www\protected\controllers\QuestionsController.php(17): QuestionsController->topicalAnswer()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/questions
+HTTP_REFERER=http://79a/signup
+---
+2014/09/03 05:57:33 [error] [php] Undefined variable: topicalAnswer (K:\home\79a\www\protected\controllers\QuestionsController.php:20)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): QuestionsController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): QuestionsController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): QuestionsController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/questions
+in K:\home\79a\www\protected\controllers\QuestionsController.php (20)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:57:53 [error] [php] Undefined variable: topicalAnswer (K:\home\79a\www\protected\controllers\QuestionsController.php:20)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): QuestionsController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): QuestionsController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): QuestionsController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/questions
+in K:\home\79a\www\protected\controllers\QuestionsController.php (20)
+in K:\home\79a\www\index.php (13)
+2014/09/03 05:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "79a".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('79a')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/79a
+HTTP_REFERER=http://79a/signup
+---
+2014/09/03 05:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "79a".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('79a')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/79a
+HTTP_REFERER=http://79a/79a
+---
+2014/09/03 05:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "79a".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('79a')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/79a
+HTTP_REFERER=http://79a/79a
+---
+2014/09/03 06:00:37 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. Выполнявшийся SQL-запрос: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=.
+in K:\home\79a\www\protected\controllers\QuestionsController.php (49)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (17)
+in K:\home\79a\www\index.php (13)
+2014/09/03 06:00:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3. The SQL statement executed was: SELECT `idQuestion`
+FROM `Unanswered`
+WHERE idHomeowners=' in K:\home\79a\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 K:\home\79a\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 K:\home\79a\www\protected\controllers\QuestionsController.php(49): CDbCommand->queryAll()
+#2 K:\home\79a\www\protected\controllers\QuestionsController.php(17): QuestionsController->topicalAnswer()
+#3 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/questions
+HTTP_REFERER=http://79a/signup
+---
+2014/09/03 06:04:46 [error] [php] Undefined index: isIndex (K:\home\79a\www\protected\views\layouts\main.php:103)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): ChekQuestionController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): ChekQuestionController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): ChekQuestionController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): ChekQuestionController->renderFile()
+#9 K:\home\79a\www\protected\controllers\ChekQuestionController.php(59): ChekQuestionController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\layouts\main.php (103)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (59)
+2014/09/03 06:05:02 [error] [php] Undefined index: isIndex (K:\home\79a\www\protected\views\layouts\main.php:103)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): ChekQuestionController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): ChekQuestionController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): ChekQuestionController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): ChekQuestionController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): ChekQuestionController->renderFile()
+#9 K:\home\79a\www\protected\controllers\ChekQuestionController.php(59): ChekQuestionController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): ChekQuestionController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): ChekQuestionController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): ChekQuestionController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekQuestionController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekQuestion
+in K:\home\79a\www\protected\views\layouts\main.php (103)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\ChekQuestionController.php (59)
+2014/09/03 06:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/favic...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/favicon.ico
+---
+2014/09/03 06:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/
+---
+2014/09/03 06:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/favic...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/favicon.ico
+---
+2014/09/03 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/view')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/5345
+---
+2014/09/03 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/5345
+---
+2014/09/03 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/5345
+---
+2014/09/03 06:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/view')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/5345
+---
+2014/09/03 06:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/5345
+---
+2014/09/03 06:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/5345
+---
+2014/09/03 06:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/js/jq...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/questions/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/questions/
+---
+2014/09/04 00:46:41 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:46:49 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:46:52 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 00:47:09 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:48:54 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:49:20 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:49:23 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(103): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:49:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(104): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:49:46 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(104): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:50:03 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "InputController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(104): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): CController->render('login', Array)
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('login')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/l...')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin79/input/login
+HTTP_REFERER=http://79a/
+---
+2014/09/04 00:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/04 00:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 00:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/04 00:56:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 00:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/04 00:57:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "NewDbController.param".' in K:\home\79a\www\framework\base\CComponent.php:130
+Stack trace:
+#0 K:\home\79a\www\protected\views\layouts\main.php(104): CComponent->__get('param')
+#1 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#2 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#3 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#4 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 K:\home\79a\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 K:\home\79a\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 K:\home\79a\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 K:\home\79a\www\framework\web\CBaseController.php(126): require('K:\home\79a\www...')
+#10 K:\home\79a\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('K:\home\79a\www...', Array, true)
+#11 K:\home\79a\www\framework\web\CController.php(784): CBaseController->renderFile('K:\home\79a\www...', Array, true)
+#12 K:\home\79a\www\protected\controllers\NewDbController.php(7): CController->render('index')
+#13 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): NewDbController->actionIndex()
+#14 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#18 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('NewDb')
+#19 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 K:\home\79a\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/NewDb
+HTTP_REFERER=http://79a/index.php
+---
+2014/09/04 01:26:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "AjaxmessController.param".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\protected\controllers\AjaxmessController.php(14): CComponent->__set('param', Array)
+#1 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): AjaxmessController->actionForum()
+#2 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('Forum')
+#6 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxmess/Forum')
+#7 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 K:\home\79a\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Ajaxmess/Forum
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 01:35:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('NewDb')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/NewDb
+HTTP_REFERER=http://79a/index.php
+---
+2014/09/04 01:37:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('Forum')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxmess/Forum')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/Ajaxmess/Forum
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 01:37:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('Forum')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxmess/Forum')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/Ajaxmess/Forum
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 01:38:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('Forum')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxmess/Forum')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/Ajaxmess/Forum
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 01:38:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in K:\home\79a\www\framework\web\CController.php:336
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('Forum')
+#4 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxmess/Forum')
+#5 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 K:\home\79a\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/Ajaxmess/Forum
+HTTP_REFERER=http://79a/questions
+---
+2014/09/04 01:54:42 [error] [php] Undefined index: nameInput (K:\home\79a\www\protected\controllers\AjaxmessController.php:21)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxmessController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxmessController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxmessController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxmess/Forum
+in K:\home\79a\www\protected\controllers\AjaxmessController.php (21)
+in K:\home\79a\www\index.php (13)
+2014/09/04 02:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 02:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/04 02:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "favicon.ico".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/f...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/favicon.ico
+---
+2014/09/04 02:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 02:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "=".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('=')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/=
+---
+2014/09/04 03:06:52 [error] [php] Undefined index: nameInput (K:\home\79a\www\protected\controllers\ChekSingupController.php:13)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekSingupController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekSingupController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekSingupController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekSingup
+in K:\home\79a\www\protected\controllers\ChekSingupController.php (13)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:06:55 [error] [php] Undefined index: nameInput (K:\home\79a\www\protected\controllers\ChekSingupController.php:13)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): ChekSingupController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): ChekSingupController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): ChekSingupController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/chekSingup
+in K:\home\79a\www\protected\controllers\ChekSingupController.php (13)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin/Topics".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin/Topic...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin/Topics
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "Ajaxlogin/Topics".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin/Topic...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ajaxlogin/Topics
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ajaxlogin".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxlogin')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:17:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "AjaxloginController.param".' in K:\home\79a\www\framework\base\CComponent.php:173
+Stack trace:
+#0 K:\home\79a\www\protected\controllers\AjaxloginController.php(14): CComponent->__set('param', Array)
+#1 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): AjaxloginController->actionIndex()
+#2 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 K:\home\79a\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#6 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Ajaxlogin')
+#7 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 K:\home\79a\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Ajaxlogin
+HTTP_REFERER=http://79a/
+---
+2014/09/04 03:43:05 [error] [php] Undefined offset: 1 (K:\home\79a\www\protected\controllers\AjaxloginController.php:37)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (37)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:46:26 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:27)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (27)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:57:24 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:41)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (41)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:57:58 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:41)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (41)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:58:04 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:41)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (41)
+in K:\home\79a\www\index.php (13)
+2014/09/04 03:59:40 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:41)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (41)
+in K:\home\79a\www\index.php (13)
+2014/09/04 04:00:26 [error] [php] Undefined index: id (K:\home\79a\www\protected\controllers\AjaxloginController.php:41)
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(286): AjaxloginController->runAction()
+#1 K:\home\79a\www\framework\web\CController.php(265): AjaxloginController->runActionWithFilters()
+#2 K:\home\79a\www\framework\web\CWebApplication.php(282): AjaxloginController->run()
+#3 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ajaxlogin
+in K:\home\79a\www\protected\controllers\AjaxloginController.php (41)
+in K:\home\79a\www\index.php (13)
+2014/09/04 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:36:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:36:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 04:48:11 [error] [php] Undefined offset: 3 (K:\home\79a\www\protected\views\layouts\main.php:240)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): QuestionsController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): QuestionsController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): QuestionsController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): QuestionsController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): QuestionsController->renderFile()
+#9 K:\home\79a\www\protected\controllers\QuestionsController.php(24): QuestionsController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): QuestionsController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): QuestionsController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): QuestionsController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/questions
+in K:\home\79a\www\protected\views\layouts\main.php (240)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (24)
+2014/09/04 04:48:15 [error] [php] Undefined offset: 2 (K:\home\79a\www\protected\views\layouts\main.php:240)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): QuestionsController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): QuestionsController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): QuestionsController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): QuestionsController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): QuestionsController->renderFile()
+#9 K:\home\79a\www\protected\controllers\QuestionsController.php(24): QuestionsController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): QuestionsController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): QuestionsController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): QuestionsController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/questions
+in K:\home\79a\www\protected\views\layouts\main.php (240)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\QuestionsController.php (24)
+2014/09/04 04:48:22 [error] [php] Undefined offset: 2 (K:\home\79a\www\protected\views\layouts\main.php:240)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in K:\home\79a\www\protected\views\layouts\main.php (240)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 04:48:55 [error] [php] Undefined offset: 1 (K:\home\79a\www\protected\views\layouts\main.php:240)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in K:\home\79a\www\protected\views\layouts\main.php (240)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 04:49:09 [error] [php] Undefined offset: 2 (K:\home\79a\www\protected\views\layouts\main.php:240)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in K:\home\79a\www\protected\views\layouts\main.php (240)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 05:00:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/favicon.ico".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/favicon.i...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2014/09/04 05:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/favicon.ico".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/favicon.i...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2014/09/04 05:00:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/homeowners
+---
+2014/09/04 05:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 05:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 05:01:21 [error] [php] Invalid argument supplied for foreach() (K:\home\79a\www\protected\views\layouts\main.php:245)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in K:\home\79a\www\protected\views\layouts\main.php (245)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 05:01:27 [error] [php] Invalid argument supplied for foreach() (K:\home\79a\www\protected\views\layouts\main.php:245)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): InputController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): InputController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): InputController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): InputController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): InputController->renderFile()
+#9 K:\home\79a\www\protected\controllers\admin79\InputController.php(98): InputController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): InputController->actionLogin()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): InputController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): InputController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): InputController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin79/input/login
+in K:\home\79a\www\protected\views\layouts\main.php (245)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\admin79\InputController.php (98)
+2014/09/04 05:02:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/homeowners
+---
+2014/09/04 05:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:02:25 [error] [php] Invalid argument supplied for foreach() (K:\home\79a\www\protected\views\layouts\main.php:245)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in K:\home\79a\www\protected\views\layouts\main.php (245)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 05:07:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:07:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:07:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:09:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/Homeowners
+---
+2014/09/04 05:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/Homeowners
+---
+2014/09/04 05:13:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin
+---
+2014/09/04 05:13:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/homeowners
+---
+2014/09/04 05:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:16:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin
+---
+2014/09/04 05:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 05:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in K:\home\79a\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\79a\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/input/j...')
+#3 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\79a\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin79/input/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/input/login
+---
+2014/09/04 05:16:34 [error] [php] Invalid argument supplied for foreach() (K:\home\79a\www\protected\views\layouts\main.php:245)
+Stack trace:
+#0 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 K:\home\79a\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 K:\home\79a\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 K:\home\79a\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 K:\home\79a\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 K:\home\79a\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 K:\home\79a\www\framework\web\CBaseController.php(126): require()
+#7 K:\home\79a\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 K:\home\79a\www\framework\web\CController.php(784): SiteController->renderFile()
+#9 K:\home\79a\www\protected\controllers\SiteController.php(34): SiteController->render()
+#10 K:\home\79a\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 K:\home\79a\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 K:\home\79a\www\framework\web\CController.php(286): SiteController->runAction()
+#13 K:\home\79a\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 K:\home\79a\www\framework\web\CWebApplication.php(282): SiteController->run()
+#15 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 K:\home\79a\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in K:\home\79a\www\protected\views\layouts\main.php (245)
+in K:\home\79a\www\protected\views\layouts\column1.php (6)
+in K:\home\79a\www\protected\controllers\SiteController.php (34)
+2014/09/04 05:32:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin
+---
+2014/09/04 05:32:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in K:\home\79a\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 K:\home\79a\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 K:\home\79a\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 K:\home\79a\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 K:\home\79a\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 K:\home\79a\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 K:\home\79a\www\framework\web\CController.php(291): CFilterChain->run()
+#6 K:\home\79a\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 K:\home\79a\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/homeowner...')
+#9 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 K:\home\79a\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/homeowners
+---
+2014/09/04 05:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/js/jquery...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin/homeowners
+---
+2014/09/04 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin79".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin79/
+---
+2014/09/04 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin79/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/js/jque...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin79/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/
+---
+2014/09/04 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin79/favicon.ico".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/favicon...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin79/favicon.ico
+---
+2014/09/04 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin79/favicon.ico".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/favicon...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin79/favicon.ico
+---
+2014/09/04 05:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin79/js/jquery.maskedinput-1.3.1.min_.js".' in K:\home\79a\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\79a\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin79/js/jque...')
+#1 K:\home\79a\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\79a\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin79/js/jquery.maskedinput-1.3.1.min_.js
+HTTP_REFERER=http://79a/admin79/
+---

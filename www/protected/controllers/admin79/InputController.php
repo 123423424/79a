@@ -1,6 +1,6 @@
 <?php
 
-class InputController extends Controller
+class InputController extends Primary
 {
 	/**
 	 * Declares class-based actions.

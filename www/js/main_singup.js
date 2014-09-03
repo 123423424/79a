@@ -91,8 +91,9 @@ $('#surnameInput').focusout(function() {
 			    url: m_action  /*+'/2' */,
 			    data: m_data			    
 			    }).done(function( result ) {
-			        // $('#test_form').html(result)
-			         document.location.href = '/questions?first=1';			
+			        
+			         if (result != 'error') {document.location.href = '/questions?first=1';	} else  {  $('#test_form').html('<p class="text-center">Такой телефон уже зарегистрирован. Пожалуйста позвоните администратору для решения этого вопроса. +7-952-944-38-87</p>')}
+			         		
 				}).fail(function(result) {
 			    	$('#test_form').html("нет ответа... Сообщите об ошибке на почту 380-00-63@mail.ru")
 			    	})		    

@@ -1,6 +1,6 @@
 <?php
 //if (Yii::app()->user->name != 'MaXiM'){die('вали от сюда!');} 
-class NewDbController extends Controller
+class NewDbController extends Primary
 {
 	public function actionIndex()
 	{  if (Yii::app()->user->name != 'MaXiM') return false;

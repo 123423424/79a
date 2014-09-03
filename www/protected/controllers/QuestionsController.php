@@ -1,5 +1,5 @@
 <?php
-if (Yii::app()->user->name !='reg') die();
+//if (Yii::app()->user->name !='reg') header('Location: http://' . $_SERVER['SERVER_NAME'] );
 
 
 class QuestionsController extends Primary
@@ -11,8 +11,12 @@ class QuestionsController extends Primary
     
 	public function actionIndex()
 	{      
-	       $this->firstfunc(); 
-           $topicalAnswer = $this->topicalAnswer();		   
+	    //Проверка зарегистрированный ли пользователь
+        if (Yii::app()->user->name =='reg') { 
+            //Проверка впервые ли пользователь
+	        $this->firstfunc();  
+            //Проверка: на какую последнюю тему отвечал пользователь
+            $topicalAnswer = $this->topicalAnswer();	
      
            //Если есть не отвечанные вопросы
            if ($this->IdLastQuestion > $topicalAnswer)  {
@@ -20,7 +24,9 @@ class QuestionsController extends Primary
                 $this->render('index'.$topicalAnswer);}  
            //Если нет не отвеченных вопросов
            else {$this->render('index');} 
+           }
            
+           else  header('Location: http://' . $_SERVER['SERVER_NAME'] );   
            
 	}
     

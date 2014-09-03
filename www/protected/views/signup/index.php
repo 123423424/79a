@@ -42,9 +42,9 @@ $this->breadcrumbs=array(
     
     <div class="form-group2">
     <div class="form-group">
-        <label for="roomInput">Номер квартиры:</label>
+        <label for="roomInput">Номер квартиры (начиная с 01):</label>
         <input type="text" class="form-control" id="roomInput" name="roomInput"  placeholder="Введите номер квартиры"/>
-        <p class="bg-danger padding10">Должны быть только буквы</p>
+        <p class="bg-danger padding10">Должны быть двухзначным числом (от 01 до 99)</p>
     </div>
     
     <div class="form-group">
@@ -56,7 +56,7 @@ $this->breadcrumbs=array(
     <div class="form-group">
         <label for="mailInput">Почта (email):</label>
         <input type="email" class="form-control" id="mailInput"  name="mailInput"  placeholder="Введите Вашу почту"/>
-        <p id='name_mail_name-mass' class="bg-danger padding10">Должны быть только буквы</p>
+        <p id='name_mail_name-mass' class="bg-danger padding10">Должно соответствовать почте, к примеру example@mail.ru</p>
     </div>
     
     <div class="form-group">

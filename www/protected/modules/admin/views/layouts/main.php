@@ -36,55 +36,6 @@
 
 <body class="bs-docs-home">
 
- <!-- Modal  Регистрация-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content panel panel-primary">
-              <div class="modal-header panel-heading">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title panel-title" id="myModalLabel">Регистрация</h3>
-              </div>
-              <div class="modal-body">
-                <form role="form">
-                  <div class="form-group has-success has-feedback">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите email">
-                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
-                  </div>
-
-                  <div class="form-group has-error has-feedback">
-                    <label for="exampleInputPassword1">Пароль</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-                    <p class="bg-danger padding10">Введен не верный пароль</p>
-                  </div>
-
-
-                  <div class="form-group">
-                    <a href="">Забыли пароль? Восстановить.</a>
-                  </div>
-
-                  <div class="modal-footer">
-                    <div class="btn-group btn-group-justified">
-
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-default">Зарегистрироваться</button>
-                      </div>
-
-                      <div class="btn-group">
-                        <button type="submit" class="btn btn-primary">Войти</button>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </form>
-
-
-              </div>
-            </div>
-          </div>
-        </div> <!-- Modal  Регистрация  / -->
 
        
        
@@ -164,8 +115,10 @@
             
             ?>)</a>
             
-            <?php
-	if ((Yii::app()->user->name == 'MaXiM')|| (Yii::app()->user->name == 'reg')){ 
+          
+
+<?php
+	if ((Yii::app()->user->name == 'MaXiM')|| (Yii::app()->user->name[0] == 'reg')){ 
 
 ?>
 			<!-- Компоненты для админа -->
@@ -179,8 +132,11 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(                
                 array('label'=>'Главная', 'url'=>array('/')),
-                  array('label'=>'Вопросы', 'url'=>array('/questions')), 
-                array('label'=>'Редактор собственников', 'url'=>array('/admin/homeowners')), 
+                array('label'=>'admin', 'url'=>array('/admin')),
+                array('label'=>'Форма валидации', 'url'=>array('/admin/homeowners/')),
+                
+               
+                array('label'=>'Вопросы', 'url'=>array('/questions')), 
                 
                 array('label'=>'Проверка формы', 'url'=>array('/chekSingup')), 
                 array('label'=>'gii', 'url'=>array('/gii')),   

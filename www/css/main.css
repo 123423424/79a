@@ -36,7 +36,9 @@ letter-spacing: 3px;
 }
 
 
-
+#mess {
+	display: none;
+}
 /*
 
 */

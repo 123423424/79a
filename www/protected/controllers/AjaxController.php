@@ -24,8 +24,8 @@ class AjaxController extends CController {
             email VARCHAR(255) default "",
           
   
-  hireDate TIMESTAMP NOT NULL default "0000-00-00 00:00:00",
-registerDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+    hireDate TIMESTAMP NOT NULL default "0000-00-00 00:00:00",
+    registerDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
             
             ip INT UNSIGNED NOT NULL,   
                   
@@ -43,13 +43,13 @@ registerDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
     //Отвеченные вопросы
         public function actionUnanswered()	
         {             
-            //CURRENT_TIMESTAMP, - автоматически вставить текущую дату
+            //CURRENT_TIMESTAMP, - автоматически вставить текущую дату  //idAnswers MEDIUMINT UNSIGNED  NOT NULL default 0,   
             // Create table ЗАКАЗЫ 
             $sql='CREATE TABLE IF NOT EXISTS  Unanswered  (
-            id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,  
+            idAnswers MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,  
             idHomeowners MEDIUMINT UNSIGNED  NOT NULL default 0, 
             idQuestion MEDIUMINT UNSIGNED  NOT NULL default 0, 
-            idAnswers MEDIUMINT UNSIGNED  NOT NULL default 0,                 
+                         
            
             INDEX (idHomeowners)          
             )  ';
@@ -79,6 +79,30 @@ registerDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
         //$this->renderPartial ('homeowners');    
         echo Yii::app()->user->name;  
 	}
+    
+    //Актуальные темы 
+        public function actionTopics()	
+        {             
+            //CURRENT_TIMESTAMP, - автоматически вставить текущую дату
+            // Create table ЗАКАЗЫ 
+            $sql='CREATE TABLE IF NOT EXISTS  Topics  (
+            idTopic MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,  
+            idHomeowners MEDIUMINT UNSIGNED  NOT NULL default 0, 
+            mess VARCHAR(255) default "", 
+            sendTime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+            visibl MEDIUMINT UNSIGNED NOT NULL default 0,  
+            
+            INDEX (idTopic)          
+            )  ';
+        Yii::app()->db->createCommand($sql)->execute(); 
+        
+        //$this->render('homeowners');  
+        //$this->renderPartial ('homeowners');    
+        echo Yii::app()->user->name;  
+	}
+    
+
+    
     
     
     

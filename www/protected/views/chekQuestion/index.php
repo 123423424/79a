@@ -1,21 +1,9 @@
-<?php
-/* @var $this ChekQuestionController */
-
-$this->breadcrumbs=array(
-	'Chek Question',
-);
-
-
-echo 'Начало<hr /> ';
-
-foreach ($_POST as $a => $b ) {
-    echo "$a => $b".'<br />';
-}
-echo '<hr /> Конец';
+<h1>
+<?php	
+    if (isset($this->param['h1'])) echo $this->param['h1'];
 ?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
+</h1>
 
-<p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
-</p>
+Нажмите на кнопку: 
+<a class="btn btn-success" role="button" href="/questions">Далее</a>
+
